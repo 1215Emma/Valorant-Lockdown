@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer components {
-  
   .weapons-btn {
     @apply text-left hover:text-white hover:text-5xl 
   }
