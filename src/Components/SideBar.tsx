@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 const weapons = {
   Sidearms: ["Classic", "Shorty", "Frenzy", "Ghost", "Sheriff"],
   SMGs: ["Stinger", "Spectre"],
@@ -16,7 +17,7 @@ const SideBar = () => {
     return weaponsKey.map((weapon) => {
       return (
         <motion.button type="button" className="weapons-btn"
-        whileHover={{scale: 1.2, transition: {duration: 0.25}}}> 
+        whileHover={{scale: 1.3, transition: {duration: 0.25}}}> 
           {weapon}
         </motion.button>
       );
