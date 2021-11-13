@@ -17,7 +17,7 @@ const SideBar = () => {
     return weaponsKey.map((weapon) => {
       return (
         <motion.button type="button" className="weapons-btn"
-        whileHover={{scale: 1.3, transition: {duration: 0.25}}}> 
+        whileHover={{scale: 1.4, transition: {duration: 0.25}}}> 
           {weapon}
         </motion.button>
       );
